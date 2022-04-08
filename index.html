@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>QR Code Generator in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="bg-purple-600">
+    <div class="wrapper shadow-2xl shadow-black rounded-2xl">
+      <header>
+        <h1 class="font-serif text-4xl">QR Code Generator</h1>
+        <p class="font-serif">
+          Enter the text or url to Generate the QR Code 😉
+        </p>
+      </header>
+      <div class="form">
+        <input
+          class="font-serif"
+          type="text"
+          spellcheck="false"
+          placeholder="Enter text or url"
+        />
+        <button
+          class="mt-5 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:outline-none font-medium rounded-lg text-xl px-5 pt-2 text-center mr-2 font-serif"
+        >
+          Generate QR Code
+        </button>
+      </div>
+      <h5 class="font-serif text-center mb-2"></h5>
+      <div class="qr-code">
+        <img src="" alt="qr-code" />
+      </div>
+    </div>
+
+    <script src="style.js"></script>
+  </body>
+</html>
